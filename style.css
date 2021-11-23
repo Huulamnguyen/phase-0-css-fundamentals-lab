@@ -3,3 +3,49 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Header */
+header,
+section {
+  text-align: center;
+}
+
+/* Nav Bar */
+nav {
+  margin: 0;
+  padding: 1rem;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav a{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #111;
+}
+
+/* featured-property */
+#featured-property > p {
+  width: 800px;
+  margin: auto;
+  padding: 10px;
+}
+
+/* Figure */
+figure {
+  font-style: italic;
+  font-size: smaller;
+}
+
+/* Details */
+#details > div {
+  width: 25%;
+  float: left;
+  background-color: #333;
+  color: white;
+}
